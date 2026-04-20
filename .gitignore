@@ -2,3 +2,5 @@ chroma_asl_db/*
 chroma_chess_db/*
 dataset/*
 .env
+__pycache__/*
+*.txt
