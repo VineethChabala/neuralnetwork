@@ -10,12 +10,12 @@ Below is a summary of the notebooks and resources available in this folder:
 
 | Component / Notebook | Description | Core Stack |
 | :--- | :--- | :--- |
-| [llm-from-scratch.ipynb](file:///d:/Projects/neuralnetwork/llm-from-scratch.ipynb) | Custom GPT-like Large Language Model built entirely from scratch. | PyTorch, Regex, Python |
-| [mnist-from-scratch.ipynb](file:///d:/Projects/neuralnetwork/mnist-from-scratch.ipynb) | 2-Layer Neural Network trained on MNIST digits using raw matrix operations. | NumPy, Pandas, Matplotlib |
-| [rag_pipeline.ipynb](file:///d:/Projects/neuralnetwork/rag_pipeline.ipynb) | Hybrid-search RAG pipeline on Chess Laws with Cross-Encoder reranking. | LangChain, ChromaDB, BM25, SentenceTransformers |
-| [embeddings_creator.ipynb](file:///d:/Projects/neuralnetwork/embeddings_creator.ipynb) | Keyphrase extraction and vector database population from movie plot files. | KeyBERT, SentenceTransformers, GPU-accelerated |
-| [semantic_movie_recommender.ipynb](file:///d:/Projects/neuralnetwork/semantic_movie_recommender.ipynb) | Similarity-based search engine recommending movies from natural language queries. | SentenceTransformers, NumPy, Cosine Similarity |
-| [webscraping.ipynb](file:///d:/Projects/neuralnetwork/webscraping.ipynb) | Custom review parser designed to scrape user feedback from Letterboxd. | Cloudscraper, BeautifulSoup |
+| [llm-from-scratch.ipynb](llm-from-scratch.ipynb) | Custom GPT-like Large Language Model built entirely from scratch. | PyTorch, Regex, Python |
+| [mnist-from-scratch.ipynb](mnist-from-scratch.ipynb) | 2-Layer Neural Network trained on MNIST digits using raw matrix operations. | NumPy, Pandas, Matplotlib |
+| [rag_pipeline.ipynb](rag_pipeline.ipynb) | Hybrid-search RAG pipeline on Chess Laws with Cross-Encoder reranking. | LangChain, ChromaDB, BM25, SentenceTransformers |
+| [embeddings_creator.ipynb](embeddings_creator.ipynb) | Keyphrase extraction and vector database population from movie plot files. | KeyBERT, SentenceTransformers, GPU-accelerated |
+| [semantic_movie_recommender.ipynb](semantic_movie_recommender.ipynb) | Similarity-based search engine recommending movies from natural language queries. | SentenceTransformers, NumPy, Cosine Similarity |
+| [webscraping.ipynb](webscraping.ipynb) | Custom review parser designed to scrape user feedback from Letterboxd. | Cloudscraper, BeautifulSoup |
 
 ---
 
@@ -61,9 +61,9 @@ A light utility script to bypass modern bot checks:
 
 ## 📊 Supporting Files & Assets
 
-* **[verdict.txt](file:///d:/Projects/neuralnetwork/verdict.txt)**: Source text corpus (Edith Wharton's short story *The Verdict*) used to train the custom LLM tokenizer.
-* **[LawsOfChess.pdf](file:///d:/Projects/neuralnetwork/LawsOfChess.pdf)**: Official rulebook from FIDE used as the input source for the Chess RAG pipeline.
-* **[chess.json](file:///d:/Projects/neuralnetwork/chess.json)**: Extracted JSON data structure preserving section metadata.
+* **[verdict.txt](verdict.txt)**: Source text corpus (Edith Wharton's short story *The Verdict*) used to train the custom LLM tokenizer.
+* **[LawsOfChess.pdf](LawsOfChess.pdf)**: Official rulebook from FIDE used as the input source for the Chess RAG pipeline.
+* **[chess.json](chess.json)**: Extracted JSON data structure preserving section metadata.
 * **`chroma_asl_db/`**: Local SQLite-backed Chroma database directory storing vector index mappings.
 * **`dataset/movie1.csv`**: A dense CSV dataset containing movie metadata (titles, years, and plot summaries).
 
